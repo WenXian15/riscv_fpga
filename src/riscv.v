@@ -7,8 +7,6 @@
 //
 // Copyright 2023-2025 by Michael Kohn
 
-`include "alu.vinc"
-
 module riscv
 (
 `ifndef TANG_NANO
@@ -536,7 +534,7 @@ alu alu_0(
   .arg_1   (arg_1),
   .alu_op  (alu_op),
   .is_alt  (is_alt),
-  .result  (alu_result),
+  .result  (alu_result)
 );
 
 endmodule
