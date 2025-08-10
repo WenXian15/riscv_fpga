@@ -1,0 +1,3 @@
+[submodule "naken_asm"]
+	path = naken_asm
+	url = https://github.com/mikeakohn/naken_asm.git
